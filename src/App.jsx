@@ -3,9 +3,6 @@ import { Hero, Navbar, Stats, Business, Billing, CardDeal, Testimonials, Clients
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
-    {/* paddingX: 'sm:px-16 px-6',
-    flexCenter: 'flex justify-center items-center',
-    boxWidth: 'xl:max-w-[1280px] w-full', */}
     <div className={`${styles.paddingX} ${styles.flexCenter} ${styles.navbar}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
